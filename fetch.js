@@ -21,6 +21,7 @@ fetch(url, fetchData)
         <div class="eachUsers bg-white shadow-lg rounded-2xl p-5 flex flex-col items-center text-center border border-gray-200 hover:shadow-2xl transition duration-300">
       
             <img src="${value.image}" alt=""class="w-48 h-48 object-cover rounded-full mb-4 border-4 border-gray-200" >
+            
             <p class="text-lg font-semibold text-gray-800"><span class="font-bold text-gray-700">Name:</span>
             ${
               value.firstName + " " + value.maidenName + " " + value.lastName
